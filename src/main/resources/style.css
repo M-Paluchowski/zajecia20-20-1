@@ -1,0 +1,25 @@
+p {
+    color: red;
+}
+
+.niebieski {
+    color: blue;
+}
+
+#text1 {
+    background-color: orange;
+}
+
+.test-hw {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    margin-left: 100px;
+    border: 2px solid green;
+    padding: 20px;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+}

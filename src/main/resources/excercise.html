@@ -2,15 +2,62 @@
     <head>
         <title>Moja pierwsza strona internetowa</title>
         <meta charset="UTF-8">
+        <style>
+            .red-font {
+                color: red;
+            }
+
+            .green-font {
+                color: green;
+            }
+
+            .pink-bg-color{
+                background-color: pink;
+            }
+
+            #div1 {
+                margin-left: 100px;
+            }
+        </style>
     </head>
     <body>
         <h1>Wrocław</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Herb_wroclawia_1948.svg/200px-Herb_wroclawia_1948.svg.png" alt="Zdjęcie Wrocławia"/>
         <h2>Podstawowe informacje:</h2>
-        <p>
-            ... Podstawowe informacje ...
+        <p class="red-font">
+            ... Podstawowe <span class="green-font">informacje</span> ...
         </p>
-        <h2>Historia:</h2>
-        <p> ... Historia ...</p>
+        <div class="pink-bg-color">
+            <h2>Historia:</h2>
+            <p> ... Historia ...</p>
+        </div>
+
+        <div id="div1">
+            <h2>Ludność</h2>
+            <table>
+                <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Liczba mieszkańców</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1526</td>
+                    <td>22000</td>
+                </tr>
+                <tr>
+                    <td>1710</td>
+                    <td>40890</td>
+                </tr>
+                <tr>
+                    <td>1939</td>
+                    <td>629565</td>
+                </tr>
+                </tbody>
+            </table>
+
+        </div>
         <h2>Odnośniki:</h2>
         <ul>
             <li>Wpis o Wrocławiu na <a href="https://www.wikipedia.pl">wikipedii</a></li>
